@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Be Vietnam Pro';
+    color: #CDD5E0;
+}
+
+body {
+    background-image: url(resources/background.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header{
+    margin: 20px 30px;
+}
+h1{
+    width: 40%;
+    margin: 2rem auto;
+    text-align: center;
+    font-size: 4rem;
+    color: #FFFFFF;
+}
+h5{
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+form{
+    display: grid;
+    width: 45%;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: auto;
+    margin: 4rem auto;
+    background-color: #FFFFFF33;
+    gap: 20px;
+    padding: 2rem;
+    border-radius: 16px;
+}
+
+label{
+    display: block;
+    font-size: 0.875rem;
+    margin: 5px 
+}
+input{
+    width: 100%;
+    margin: 5px 0;
+    padding: 30px 16px;
+    border-radius: 16px;
+    color: #111729;
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: #FFFFFF;
+    border: none;
+}
+input:placeholder{
+    color: #111729;
+}
+
+
+select{
+    width: 100%;
+    margin: 5px 0;
+    padding: 30px 16px;
+    border-radius: 16px;
+    color: #111729;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    border: none;
+}
+textarea{
+    resize: none;
+    height: 11rem;
+    width: 100%;
+    padding: 16px;
+    border-radius: 16px;
+    color: #111729;
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: #FFFFFF;
+    border: none;
+}
+
+
+.message{
+    grid-column: span 2;
+
+}
+
+#contact{
+    grid-column: span 2;
+    color: #4036A9;
+    font-size: 1.25rem;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    border: none;
+}
+
+
+
+.author-info {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 16px;
+    color: rgb(55, 65, 81);
+}
+
+.author-info a {
+    text-decoration: none;
+}
